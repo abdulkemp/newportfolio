@@ -173,5 +173,9 @@ export default {
     justify-content: center;
     text-align: center;
   }
+
+  .links{
+    margin-right: 33px;
+  }
 }
 </style>

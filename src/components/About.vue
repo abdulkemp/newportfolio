@@ -135,8 +135,11 @@ export default {
 @media screen and (max-width: 650px) {
   .about .info img {
     margin-bottom: 35px;
+    width: 15rem;
     /* display: inline-block; */
   }
+
+  
 
   .download {
     display: flex;
@@ -169,6 +172,9 @@ export default {
   .para h1 {
     font-size: 25px;
     margin-bottom: 1rem;
+  }
+  .para{
+    text-align: center;
   }
 }
 @media screen and (max-width: 1700px) {

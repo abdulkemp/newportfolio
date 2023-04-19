@@ -219,8 +219,13 @@ export default {
   } */
 
   .education-skills{
-    display: inline-block;
+    /* font-size: 12px; */
+    display: flex;
     justify-content: center;
+  }
+
+  .education-skills h1{
+    font-size: 25px;
   }
 
   .bo{
