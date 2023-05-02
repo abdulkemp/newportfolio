@@ -42,6 +42,12 @@ export default {
   data() {
     return {
       work: [
+      {
+          name: "Lagom E-Comm",
+          github: "https://github.com/abdulkemp/Lagom-Project",
+          netlify: "https://lagom-ecom.netlify.app",
+          image: "https://i.postimg.cc/d3Q7cY0M/Screenshot-2023-05-02-120637.png",
+        },
         {
           name: "Game Box",
           github: "https://github.com/abdulkemp/project.git",
