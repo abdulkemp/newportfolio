@@ -226,7 +226,7 @@ export default {
     display: inline-block;
     justify-content: center;
     word-wrap: break-word;
-    margin-left: 4rem;
+    margin-left: 5rem;
     text-align: center;
   }
 
