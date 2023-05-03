@@ -223,9 +223,12 @@ export default {
     justify-content: center;
   } */
 
+
   .education-skills{
     display: inline-block;
     justify-content: center;
+
+    padding-left: 5px;
   }
 
   .bo{
