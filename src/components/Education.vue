@@ -2,11 +2,11 @@
   <div class="edu">
     <div id="education">
       <div class="education-skills">
-        <h1>Education and Experience</h1>
+        <h1>Education <span> and Experience </span></h1>
       </div>
       <div class="education">
         <div class="co">
-          <div class="row edu" style="display: flex;justify-content: center;">
+          <div class="row edu" style="display: flex; justify-content: center">
             <div class="col-sm-3 my-2 boo" v-for="item in resume" :key="item">
               <div class="card bo">
                 <div class="card-body">
@@ -26,8 +26,8 @@
     </div>
     <div class="skill">
       <div class="my-skills">
-        <div class="row ski" style="display: flex;justify-content: center;">
-          <div class="col-md-3 mt-5 " v-for="item in skill" :key="item">
+        <div class="row ski" style="display: flex; justify-content: center">
+          <div class="col-md-3 mt-5" v-for="item in skill" :key="item">
             <div class="card bod">
               <div class="card-body">
                 <img :src="item.image" alt="..." />
@@ -111,7 +111,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .card {
   width: 20rem;
   height: 15rem;
@@ -145,7 +145,7 @@ export default {
   overflow: hidden;
 }
 
-.li{
+.li {
   margin-top: 5rem;
   margin-left: 5rem;
   margin-right: 5rem;
@@ -171,7 +171,7 @@ export default {
   align-items: center;
 }
 
-.my-skills{
+.my-skills {
   margin-left: 5rem;
   margin-right: 5rem;
 }
@@ -191,29 +191,28 @@ export default {
 .bod {
   background-color: wheat;
 }
-.edu{
+.edu {
   display: inline-block;
   justify-content: center;
   width: 100%;
-  
+
   /* border-bottom: 1px solid black; */
 }
 
-.boo{
+.boo {
   margin-right: 1rem;
 }
 
-@media screen and ( max-width: 650px) {
-  #education{
+@media screen and (max-width: 650px) {
+  #education {
     margin: 0;
-    
   }
 
-  .co{
+  .co {
     display: flex;
     justify-content: center;
   }
-  .boo{
+  .boo {
     display: flex;
     justify-content: center;
     margin: 0;
@@ -223,19 +222,25 @@ export default {
     justify-content: center;
   } */
 
-
-  .education-skills{
+  .education-skills {
     display: inline-block;
     justify-content: center;
-
-    padding-left: 5px;
+    word-wrap: break-word;
+    margin-left: 4rem;
+    text-align: center;
   }
 
-  .bo{
+  .bo {
     width: 17rem;
   }
-  .bod{
+  .bod {
     width: 17rem;
   }
+  .education-skills span{
+    display: flex;
+    justify-content: center;
+
+}
+
 }
 </style>
