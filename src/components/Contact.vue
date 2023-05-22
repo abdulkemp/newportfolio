@@ -93,7 +93,7 @@
               >
               </textarea>
             </div>
-            <div class="col-12">
+            <div class="col-12 yes">
               <button class="btn btn-primary" type="submit">Submit form</button>
             </div>
           </form>
@@ -118,6 +118,10 @@ export default {};
   margin-right: 5rem;
 }
 
+.yes{
+  display: flex;
+  justify-content: center;
+}
 .contact-me {
   display: flex;
   justify-content: center;

@@ -87,6 +87,7 @@ export default {
     justify-content: center;
     align-items: center;
     text-align: center;
+    /* color: white; */
   }
 
   .home-img {
